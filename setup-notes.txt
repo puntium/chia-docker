@@ -1,0 +1,6 @@
+4tb disk mounted at /disk4tb
+raid volume mounted at /raid0
+
+//nasu/core  mounted ad /mnt/nasucore
+
+sudo mount -t cifs //192.168.11.185/core /mnt/nasucore -o rw,username=ken,uid=1000
